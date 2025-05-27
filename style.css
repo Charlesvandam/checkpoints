@@ -12,7 +12,7 @@ body {
     background-position: bottom;
 }
 
-.magic-card {
+/* .magic-card {
     position: relative;
     margin: bottom;
 
@@ -29,7 +29,6 @@ body {
 
 .sticky-top.offset-100 {
     top: 100px;
-
 }
 
 
@@ -44,4 +43,4 @@ body {
 .thirsty-section {
     align-items: center;
     justify-content: center;
-}
+} */
