@@ -1,0 +1,47 @@
+body {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.bg-hero {
+    background: url(rhino-pic.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.magic-card {
+    position: relative;
+    margin: bottom;
+
+
+    top: var(--magic-card-offset)
+}
+
+.thirsty {
+    float: left;
+    height: 300px;
+    width: 400px;
+    align-items: center;
+}
+
+.sticky-top.offset-100 {
+    top: 100px;
+
+}
+
+
+.tiger {
+    display: inline;
+}
+
+.text-location {
+    align-items: center;
+}
+
+.thirsty-section {
+    align-items: center;
+    justify-content: center;
+}
