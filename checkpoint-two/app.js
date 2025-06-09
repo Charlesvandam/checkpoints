@@ -10,6 +10,11 @@ let clickUpgrades = {
         price: 50,
         quantity: 0,
         multiplier: 5
+    },
+    goldPickaxe: {
+        price: 500,
+        quantity: 0,
+        multiplier: 100
     }
 };
 
@@ -105,7 +110,7 @@ function collectAutoUpgrades() {
     cheese += 0 + (automaticUpgrades.rover.quantity * automaticUpgrades.rover.multiplier)
         + (automaticUpgrades.rover2.quantity * automaticUpgrades.rover2.multiplier)
     document.getElementById('cheese').innerText = cheese
-    // console.log('collecting auto upgrades', coins)
+    // console.log('collecting auto upgrades', cheese)
 }
 
 let cps = 0
