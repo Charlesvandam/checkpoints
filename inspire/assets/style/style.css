@@ -1,0 +1,58 @@
+/* BASIC STYLES HERE */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  
+}
+
+#pop-toast-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+.customButton {
+  border:2.9px solid #000000;
+  border-radius:10px;
+  padding:10px;
+  margin:10px;
+  background-color:#FFFDFD;
+  color:#000000;
+  font-weight:normal;
+  opacity:1;
+  transition:1s;
+
+}
+.customButton:hover {
+  cursor:pointer; 
+  background-color:#F9F9F9;
+  opacity:0.5;
+  transition:1s;
+  color:#000000;
+}
+.image {
+  padding: 1rem;
+  color: aliceblue;
+  text-shadow: 1px 1px black, 0px 0px 5px rgb(17, 17, 17);
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+
+}
+
+.weather {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.537);
+  border-radius: 1rem;
+  backdrop-filter: blur(3px);
+}
+
+.clock {
+  padding: 1rem;
+  height: 50vh;
+  text-shadow: 1px 1px black, 0px 0px 5px rgb(22, 22, 22);
+}

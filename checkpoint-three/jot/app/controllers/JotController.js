@@ -7,7 +7,11 @@ export class JotController {
     }
 
     drawJots() {
-        const jot = AppState.jots
+        const jots = AppState.jots
+        console.table(jots)
+    }
 
+    selectJot() {
+        console.log('🧀📝')
     }
 }

@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "name": ".git",
+      "path": ".git"
+    },
+    {
+      "name": "checkpoint-one",
+      "path": "checkpoint-one"
+    },
+    {
+      "name": "checkpoint-three",
+      "path": "checkpoint-three"
+    },
+    {
+      "name": "checkpoint-two",
+      "path": "checkpoint-two"
+    },
+    {
+      "name": "inspire",
+      "path": "inspire"
+    }
+  ]
+}
